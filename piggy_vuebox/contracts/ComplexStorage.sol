@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.4.20 <0.7.0;
+// pragma solidity >=0.4.20 <0.7.0;
+pragma solidity >=0.4.21 <0.8.0;
 
 contract ComplexStorage {
     uint public storeduint1 = 15;
@@ -8,7 +9,7 @@ contract ComplexStorage {
     uint32 public investmentsDeadlineTimeStamp = uint32(now);
 
     bytes public string1 = "Hey I am a utf-8 encoded string!";
-    bytes32 public string2 = "你好！";
+    bytes32 public string2 = "hi";
     string public string3 = "lets string something";
 
     mapping (address => uint) uints1;
