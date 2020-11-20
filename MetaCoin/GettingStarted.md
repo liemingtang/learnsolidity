@@ -35,3 +35,14 @@ truffle(development)> let received = await instance.getBalance(accounts[1])
 truffle(development)> received.toNumber()
 truffle(development)> let newBalance = await instance.getBalance(accounts[0])
 truffle(development)> newBalance.toNumber()
+truffle(development)> const chainId = await web3.eth.getChainId()
+truffle(development)> chainId
+1337
+
+
+# meta mask testing account on chrome 
+seed // get it from the Ganache interface 
+exchange more bring ghost emerge soldier fabric wood fetch attract transfer soon
+
+On MetaMask, connect to the RPC Server (see address in Ganache interface)
+password: testing123
